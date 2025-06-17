@@ -1,13 +1,13 @@
 // All Documentation
-let input = document.querySelector(".multiplicand .input")
-let input2 = document.querySelector(".multiplier .input")
-let button = document.querySelector(".btn")
-let buttonInfo = document.querySelector(".btn_info")
-let button2 = document.querySelector(".btn2")
+let input       = document.querySelector(".multiplicand .input")
+let input2      = document.querySelector(".multiplier .input")
+let button      = document.querySelector(".btn")
+let buttonInfo  = document.querySelector(".btn_info")
+let button2     = document.querySelector(".btn2")
 let button2Info = document.querySelector(".btn2_info")
-let info = document.querySelector(".info")
-let outcome = document.querySelector(".outcome")
-let error = document.querySelector(".error")
+let info        = document.querySelector(".info")
+let outcome     = document.querySelector(".outcome")
+let error       = document.querySelector(".error")
 
 // For Produce Button
 button.addEventListener("click", () => {
